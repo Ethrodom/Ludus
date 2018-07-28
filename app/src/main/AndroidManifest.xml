@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apcsfinal.ludus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BaseNavigationActivity"
+            android:label="BaseNavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ChooseSub" />
+        <activity android:name=".CreateSession" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".PickUserActivity" />
+        <activity android:name=".RegisterStudentActivity" />
+        <activity android:name=".RegisterTutorActivity" />
+        <activity android:name=".SearchResults" />
+        <activity
+            android:name=".SessionListView"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Test" />
+        <activity android:name=".TutorDisplay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProfileCard"></activity>
+        <activity
+            android:name=".ChatMessage"
+            android:label="@string/title_activity_chat_message"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Ludus</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Math">
+        <item>Integrated Math 1a-1b</item>
+        <item>Integrated Math 2a-2b</item>
+        <item>Integrated Math 3a-3b</item>
+        <item>Trigonometry</item>
+        <item>Advanced Functional Analysis</item>
+        <item>Pre-Calculus</item>
+        <item>Advanced Functional Analysis</item>
+        <item>Pre-Calculus</item>
+        <item>Statistics</item>
+        <item>AP Calculus AB</item>
+        <item>AP Calculus BC</item>
+        <item>AP Statistics</item>
+    </string-array>
+    <string-array name="Science">
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Biomedical Science</item>
+        <item>Human Body Systems</item>
+        <item>Medical Interventions</item>
+        <item>AP Biology</item>
+        <item>AP Chemistry</item>
+        <item>AP Physics C: Mechanics</item>
+        <item>AP Physics C: Electricity and Magnetism</item>
+        <item>AP Environmental Science</item>
+    </string-array>
+    <string-array name="SocialStudies">
+        <item>World History</item>
+        <item>U.S. History</item>
+        <item>Civics</item>
+        <item>Economics</item>
+        <item>AP European History</item>
+        <item>AP U.S. History</item>
+        <item>AP U.S. Government and Politics</item>
+    </string-array>
+    <string-array name="WorldLanguage">
+        <item>Spanish 1–2</item>
+        <item>Spanish 3–4</item>
+        <item>Spanish 5–6</item>
+        <item>Spanish 7–8</item>
+        <item>Chinese 1–2</item>
+        <item>Chinese 3–4</item>
+        <item>Chinese 5–6</item>
+        <item>Chinese 7–8</item>
+        <item>AP Spanish</item>
+        <item>AP Chinese</item>
+    </string-array>
+
+    <!-- Labels -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="registerAccount">Haven\'t joined Ludus yet? Register an account.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="writeMessage">Write a message...</string>
+    <string name="message">Message</string>
+    <string name="profile">Profile</string>
+    <string name="changeSubjects">Change Subjects</string>
+    <string name="changeEmail">Change Email</string>
+    <string name="changePassword">Change Password</string>
+    <string name="deleteAccount">Delete Account</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_navigation__menu">Navigation_Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_base_navigation">BaseNavigationActivity</string>
+    <string name="title_activity_chat_message">ChatMessage</string>
+</resources>

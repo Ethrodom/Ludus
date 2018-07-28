@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="outsideOverlay">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <TextView
+            android:text="Enter the Following Fields"
+            android:textSize="24dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="275dp"
+            android:layout_height="35dp" />
+
+
+
+        <DatePicker
+            android:id="@+id/date"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:id="@+id/edTime"
+            android:hint="Session Duration"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/edLocation"
+            android:hint="Location"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edNumStu"
+            android:hint="How many Students"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btDone"
+            android:text="Done"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

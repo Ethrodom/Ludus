@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "428980166660",
+    "firebase_url": "https://ludus-e7ff6.firebaseio.com",
+    "project_id": "ludus-e7ff6",
+    "storage_bucket": "ludus-e7ff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428980166660:android:ac1484eb1c6a3a72",
+        "android_client_info": {
+          "package_name": "com.apcsfinal.ludus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428980166660-k2fk1suj2rg2n8l4vv9cu3dchiglqhm2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "428980166660-k2fk1suj2rg2n8l4vv9cu3dchiglqhm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ZlZHOILdRq8_FhSS9BuZhSre7z3D0ps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
